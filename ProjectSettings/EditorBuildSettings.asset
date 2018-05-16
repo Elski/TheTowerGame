@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/scenes/tower.unity
+    guid: 8b41d5fdf61681c4bb52616d7137d34c
+  - enabled: 1
+    path: Assets/scenes/blacksmith.unity
+    guid: d86d86a8659e7c244b4f6db80aade0e6
+  - enabled: 1
+    path: Assets/scenes/thetower.unity
+    guid: 565004ff75ade9d4aa50c0ac4cd106d1
+  - enabled: 1
+    path: Assets/scenes/Teacher.unity
+    guid: 2c42dd7b179674d489849f4693cca388
