@@ -17,7 +17,7 @@ public class GameAction : MonoBehaviour {
         return info;
     }
 
-
+     
 
     // Use this for initialization
 
