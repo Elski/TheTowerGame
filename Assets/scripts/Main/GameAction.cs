@@ -7,7 +7,7 @@ public class GameAction : MonoBehaviour {
 
   
 
-   
+  
     public Enemy enemy;
 
 
@@ -23,11 +23,21 @@ public class GameAction : MonoBehaviour {
 
     void Start()
     {
-    Button thatButton = GuiController.singleton.yourButton.GetComponent<Button>();
-    thatButton.onClick.AddListener(() => Attack());
+  
+
+    Button AddEndButton = AddEndScript.singleton.yourButton.GetComponent<Button>();
+    AddEndButton.onClick.AddListener(() => AddEnd());
 
     Button BigAttackB = BigAttackController.singleton.yourButton.GetComponent<Button>();
     BigAttackB.onClick.AddListener(() => BigAttack());
+
+    Button AddAgiButton = AddSpdScript.singleton.yourButton.GetComponent<Button>();
+    AddAgiButton.onClick.AddListener(() => AddAgi());
+
+    Button AddStrButton = AddStrScript.singleton.yourButton.GetComponent<Button>();
+    AddStrButton.onClick.AddListener(() => AddStr());
+
+
 
 
 
@@ -73,5 +83,19 @@ public class GameAction : MonoBehaviour {
         print(Hero.curHp);
 
     }
-    
+    public void AddEnd()
+    {
+        print(Hero.agility);
+    }
+
+    public void AddStr()
+    {
+        print(Hero.agility);
+    }
+
+    public void AddAgi()
+    {
+        print(Hero.agility);
+    }
+
 }

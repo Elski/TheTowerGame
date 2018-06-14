@@ -25,6 +25,11 @@ public static class Hero
 
     public static float points=10;
     public static float gold=100;
+    public static int floor = 0;
+
+    public static float addEnd = 0;
+    public static float addStr=0;
+    public static float addAgl = 0;
     /*
     public  Hero(string  name_, float startHp_, float curHp_, float endurance_, float charisma_, float strenght_, float agility_, float luck_, float fencing_, float vitality_, float swordPower_,
      float armorPower_, float points_, float gold_)
