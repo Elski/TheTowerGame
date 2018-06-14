@@ -6,14 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/scenes/tower.unity
+    path: Assets/scenes/outside.unity
     guid: 8b41d5fdf61681c4bb52616d7137d34c
+  - enabled: 1
+    path: Assets/scenes/inside.unity
+    guid: 565004ff75ade9d4aa50c0ac4cd106d1
   - enabled: 1
     path: Assets/scenes/blacksmith.unity
     guid: d86d86a8659e7c244b4f6db80aade0e6
   - enabled: 1
-    path: Assets/scenes/thetower.unity
-    guid: 565004ff75ade9d4aa50c0ac4cd106d1
-  - enabled: 1
-    path: Assets/scenes/Teacher.unity
+    path: Assets/scenes/teacher.unity
     guid: 2c42dd7b179674d489849f4693cca388
+  m_configObjects: {}

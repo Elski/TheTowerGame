@@ -16,7 +16,7 @@ public class BigAttackController : MonoBehaviour
         {
             //if not, set instance to this
             singleton = this;
-            DontDestroyOnLoad(this.gameObject);
+           // DontDestroyOnLoad(this.gameObject);
         }
 
         //If instance already exists and it's not this:
