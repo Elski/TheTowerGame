@@ -90,6 +90,7 @@ public class GameAction : MonoBehaviour {
         if (check == 1)
         {
             SceneManager.LoadScene("outside", LoadSceneMode.Single);
+            //if killed, player starts from the first floor
             Hero.floor = 0;
         }
 

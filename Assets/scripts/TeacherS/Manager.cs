@@ -17,22 +17,18 @@ public class Manager : MonoBehaviour {
     public Text fencingtext;
     public Text vitalitytext;
     public Text skillpointstext;
-    // Use this for initialization
 
+   
     void Start()
     {
         manager = this;
         UpdateUI();
 
     }
-    // Update is called once per frame
-    void Update () {
-		
-	}
 
     public void Leave()
     {
-        // this object was clicked - do something
+        //Move to scene "oustide"
         SceneManager.LoadScene("outside");
     }
 

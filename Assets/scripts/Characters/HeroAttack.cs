@@ -11,20 +11,13 @@ public class HeroAttack : MonoBehaviour {
         StartCoroutine(waiter());
     }
 
-
-    // Update is called once per frame
-    
-    
         IEnumerator waiter()
         {
-
+            //Move towards enemy
             transform.position += new Vector3(10.0f * Time.fixedDeltaTime, 0, 0.0f);
+            //Wait
             yield return new WaitForSeconds(1);
+            //Return to position
             transform.position += new Vector3(-10.0f * Time.fixedDeltaTime, 0, 0.0f);
-           
-
-
-        }
-
-    
+        } 
 }

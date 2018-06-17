@@ -18,18 +18,12 @@ public class Floor : MonoBehaviour
         UpdateUI();
 
     }
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    
 
     public void UpdateUI()
-    {
+    {   //Update floor counter 
         int nr = Hero.floor;
-        floortext.text = (nr).ToString("N2");
-        
+        floortext.text = (nr).ToString("N2");   
     }
 
 }

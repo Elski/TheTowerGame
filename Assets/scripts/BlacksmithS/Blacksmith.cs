@@ -61,7 +61,7 @@ public class Blacksmith : MonoBehaviour
 
     public void Leave()
     {
-        // this object was clicked - do something
+        //Move to scene "oustide"
         SceneManager.LoadScene("outside");
     }
 

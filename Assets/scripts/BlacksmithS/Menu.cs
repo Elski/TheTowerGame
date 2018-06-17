@@ -11,13 +11,13 @@ public class Menu : MonoBehaviour
 
     public void Enter()
     {
-        // this object was clicked - do something
+        //Change scene to "outside"
         SceneManager.LoadScene("outside");
     }
 
     public void Leave()
     {
-        // this object was clicked - do something
+        //Quit aplication
         Application.Quit();
     }
 
