@@ -207,6 +207,7 @@ public class GameAction : MonoBehaviour {
         else
             Hero.curHp = Hero.curHp - ((enemyLuck / 2) * (enemy.strenght + enemy.strenght * (enemy.fencing / 10)));
         print(Hero.curHp);
+        
     }
     public void HeroAttack()
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour {
 
-    public void Start()
+    public void Move()
     {
         StartCoroutine(waiter());
     }
@@ -15,7 +15,7 @@ public class EnemyAttack : MonoBehaviour {
 
     IEnumerator waiter()
     {
-
+        yield return new WaitForSeconds(1);
         transform.position += new Vector3(-10.0f * Time.fixedDeltaTime, 0, 0.0f);
         yield return new WaitForSeconds(1);
         transform.position += new Vector3(10.0f * Time.fixedDeltaTime, 0, 0.0f);

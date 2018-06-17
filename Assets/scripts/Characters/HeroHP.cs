@@ -30,7 +30,7 @@ public class HeroHP : MonoBehaviour {
             }
             left = left - change;
         }
-        print("Hp: "+left);
+      
 
         transform.localScale += new Vector3(change,0,0);
         change = 0;
