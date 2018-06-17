@@ -90,6 +90,7 @@ public class GameAction : MonoBehaviour {
         if (check == 1)
         {
             SceneManager.LoadScene("outside", LoadSceneMode.Single);
+            Hero.floor = 0;
         }
 
     }
