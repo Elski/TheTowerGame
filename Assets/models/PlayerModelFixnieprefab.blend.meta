@@ -1,54 +1,64 @@
 fileFormatVersion: 2
-guid: b3365f938ace81a4586e82c69ec50b1c
+guid: 5357d26176d722d4b9f9098b7f957147
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Cube
-    100002: Cube_001
-    100004: Cube_002
-    100006: Cube_003
-    100008: Cube_004
-    100010: //RootNode
-    100012: Sphere
-    100014: Torus
-    400000: Cube
-    400002: Cube_001
-    400004: Cube_002
-    400006: Cube_003
-    400008: Cube_004
-    400010: //RootNode
-    400012: Sphere
-    400014: Torus
-    2100000: unnamed
-    2100002: Material
-    2100004: Material_001
-    2100006: Material_002
-    2100008: Material_003
-    2100010: Material_004
-    2300000: Cube
-    2300002: Cube_001
-    2300004: Cube_002
-    2300006: Cube_003
-    2300008: Cube_004
-    2300010: Sphere
-    2300012: Torus
-    3300000: Cube
-    3300002: Cube_001
-    3300004: Cube_002
-    3300006: Cube_003
-    3300008: Cube_004
-    3300010: Sphere
-    3300012: Torus
-    4300000: Torus
-    4300002: Sphere
-    4300004: Cube
-    4300006: Cube_001
-    4300008: Cube_002
-    4300010: Cube_003
-    4300012: Cube_004
+    100000: Armature
+    100002: Bone
+    100004: Bone_001
+    100006: Bone_002_L
+    100008: Bone_002_L_001
+    100010: Bone_002_L_002
+    100012: Bone_002_L_003
+    100014: Bone_002_R
+    100016: Bone_002_R_001
+    100018: Bone_002_R_002
+    100020: Bone_002_R_003
+    100022: Bone_003
+    100024: Bone_003_L
+    100026: Bone_003_L_001
+    100028: Bone_003_L_002
+    100030: Bone_003_L_004
+    100032: Bone_003_R
+    100034: Bone_003_R_001
+    100036: Bone_003_R_002
+    100038: Bone_003_R_004
+    100040: Bone_004
+    100042: Cube_002
+    100044: //RootNode
+    400000: Armature
+    400002: Bone
+    400004: Bone_001
+    400006: Bone_002_L
+    400008: Bone_002_L_001
+    400010: Bone_002_L_002
+    400012: Bone_002_L_003
+    400014: Bone_002_R
+    400016: Bone_002_R_001
+    400018: Bone_002_R_002
+    400020: Bone_002_R_003
+    400022: Bone_003
+    400024: Bone_003_L
+    400026: Bone_003_L_001
+    400028: Bone_003_L_002
+    400030: Bone_003_L_004
+    400032: Bone_003_R
+    400034: Bone_003_R_001
+    400036: Bone_003_R_002
+    400038: Bone_003_R_004
+    400040: Bone_004
+    400042: Cube_002
+    400044: //RootNode
+    2100000: Material__boots_jpg
+    2100002: Material__black_leather_jpg
+    2100004: Material__leather_jpg
+    2100006: Material__skin_jpg
+    2100008: Material
+    4300000: Cube_002
     7400000: Default Take
+    7400002: ArmatureAction
     9500000: //RootNode
-    2186277476908879412: ImportLogs
+    13700000: Cube_002
   externalObjects: {}
   materials:
     importMaterials: 1

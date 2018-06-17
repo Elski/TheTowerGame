@@ -1,8 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.SceneManagement;
 public class TeacherTeleport : MonoBehaviour
-{/*
+{
+
+    void OnMouseDown()
+    {
+        // this object was clicked - do something
+        SceneManager.LoadScene("teacher");
+    }
+    /*
     void Update()
     {
         if (Input.GetMouseButtonDown(0))

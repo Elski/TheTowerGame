@@ -9,8 +9,8 @@ public class Enemy
  
 
 
-    public float startHp;
-    public float curHp;
+    public  float startHp;
+    public  float curHp;
 
     public float endurance;
     public float charisma;

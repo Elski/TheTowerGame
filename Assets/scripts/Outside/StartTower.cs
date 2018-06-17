@@ -9,11 +9,15 @@ public class StartTower : MonoBehaviour {
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-       if (Input.GetMouseButton(0))
-           SceneManager.LoadScene("inside");
+    void OnMouseDown()
+    {
+        // this object was clicked - do something
+        SceneManager.LoadScene("inside");
+    }
+    // Update is called once per frame
+    void Update () {
+       if (Input.GetMouseButton(0)) { }
+           
         
     }
 }

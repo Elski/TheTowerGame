@@ -54,4 +54,11 @@ public class Blacksmith : MonoBehaviour
             print(Hero.armorPower);
         }
     }
+
+    public void Leave()
+    {
+        // this object was clicked - do something
+        SceneManager.LoadScene("outside");
+    }
+
 }

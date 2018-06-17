@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -28,7 +29,12 @@ public class Manager : MonoBehaviour {
 		
 	}
 
-   
+    public void Leave()
+    {
+        // this object was clicked - do something
+        SceneManager.LoadScene("outside");
+    }
+
     public void UpdateUI()
     {
         endurancetext.text = (Hero.endurance).ToString("N2");

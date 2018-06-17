@@ -9,11 +9,15 @@ public class BlacksmithTeleport : MonoBehaviour {
 	void Start () {
 		
 	}
-
+    void OnMouseDown()
+    {
+        // this object was clicked - do something
+        SceneManager.LoadScene("blacksmith");
+    }
     //void Update()
-   // {
-      //  if (Input.GetMouseButton(0))
-       //     SceneManager.LoadScene("blacksmith");
+    // {
+    //  if (Input.GetMouseButton(0))
+    //     SceneManager.LoadScene("blacksmith");
 
     //}
 }

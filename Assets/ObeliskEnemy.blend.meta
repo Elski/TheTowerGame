@@ -1,53 +1,78 @@
 fileFormatVersion: 2
-guid: b3365f938ace81a4586e82c69ec50b1c
+guid: 39ee15f9a6de9c34e848fc5948fc9d98
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Cube
-    100002: Cube_001
-    100004: Cube_002
-    100006: Cube_003
-    100008: Cube_004
-    100010: //RootNode
-    100012: Sphere
-    100014: Torus
-    400000: Cube
-    400002: Cube_001
-    400004: Cube_002
-    400006: Cube_003
-    400008: Cube_004
-    400010: //RootNode
-    400012: Sphere
-    400014: Torus
-    2100000: unnamed
-    2100002: Material
-    2100004: Material_001
-    2100006: Material_002
-    2100008: Material_003
-    2100010: Material_004
-    2300000: Cube
-    2300002: Cube_001
-    2300004: Cube_002
-    2300006: Cube_003
-    2300008: Cube_004
-    2300010: Sphere
-    2300012: Torus
-    3300000: Cube
-    3300002: Cube_001
-    3300004: Cube_002
-    3300006: Cube_003
-    3300008: Cube_004
-    3300010: Sphere
-    3300012: Torus
-    4300000: Torus
-    4300002: Sphere
+    100000: Bone
+    100002: Bone_0
+    100004: Bone_002
+    100006: Bone_003
+    100008: Bone_004
+    100010: Bone_005
+    100012: Bone_006
+    100014: Bone_007
+    100016: Bone_008
+    100018: Bone_009
+    100020: Bone_010
+    100022: Bone_011
+    100024: Bone_012
+    100026: Bone_013
+    100028: Bone_014
+    100030: Bone_10
+    100032: Bone_11
+    100034: Bone_4
+    100036: Bone_5
+    100038: Bone_6
+    100040: Bone_7
+    100042: Bone_8
+    100044: Cube
+    100046: Cube_001
+    100048: kosci
+    100050: kosci_dolne
+    100052: //RootNode
+    100054: Sphere
+    400000: Bone
+    400002: Bone_0
+    400004: Bone_002
+    400006: Bone_003
+    400008: Bone_004
+    400010: Bone_005
+    400012: Bone_006
+    400014: Bone_007
+    400016: Bone_008
+    400018: Bone_009
+    400020: Bone_010
+    400022: Bone_011
+    400024: Bone_012
+    400026: Bone_013
+    400028: Bone_014
+    400030: Bone_10
+    400032: Bone_11
+    400034: Bone_4
+    400036: Bone_5
+    400038: Bone_6
+    400040: Bone_7
+    400042: Bone_8
+    400044: Cube
+    400046: Cube_001
+    400048: kosci
+    400050: kosci_dolne
+    400052: //RootNode
+    400054: Sphere
+    2100000: Material_001
+    2100002: Material_003
+    2100004: Material
+    2300000: Sphere
+    3300000: Sphere
+    4300000: Sphere
+    4300002: Cube_001
     4300004: Cube
-    4300006: Cube_001
-    4300008: Cube_002
-    4300010: Cube_003
-    4300012: Cube_004
     7400000: Default Take
+    7400002: kosci_dolneAction
+    7400004: kosciAction
     9500000: //RootNode
+    13700000: Cube
+    13700002: Cube_001
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
