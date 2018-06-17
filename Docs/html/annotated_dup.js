@@ -1,0 +1,25 @@
+var annotated_dup =
+[
+    [ "AddEndScript", "class_add_end_script.html", "class_add_end_script" ],
+    [ "AddSpdScript", "class_add_spd_script.html", "class_add_spd_script" ],
+    [ "AddStrScript", "class_add_str_script.html", "class_add_str_script" ],
+    [ "BigAttackController", "class_big_attack_controller.html", "class_big_attack_controller" ],
+    [ "Blacksmith", "class_blacksmith.html", "class_blacksmith" ],
+    [ "BlacksmithTeleport", "class_blacksmith_teleport.html", null ],
+    [ "DoxygenConfig", "class_doxygen_config.html", "class_doxygen_config" ],
+    [ "DoxygenWindow", "class_doxygen_window.html", "class_doxygen_window" ],
+    [ "DoxyRunner", "class_doxy_runner.html", "class_doxy_runner" ],
+    [ "DoxyThreadSafeOutput", "class_doxy_thread_safe_output.html", "class_doxy_thread_safe_output" ],
+    [ "Enemy", "class_enemy.html", "class_enemy" ],
+    [ "EnemyAttack", "class_enemy_attack.html", "class_enemy_attack" ],
+    [ "Floor", "class_floor.html", "class_floor" ],
+    [ "GameAction", "class_game_action.html", "class_game_action" ],
+    [ "GuiController", "class_gui_controller.html", "class_gui_controller" ],
+    [ "Hero", "class_hero.html", "class_hero" ],
+    [ "HeroAttack", "class_hero_attack.html", "class_hero_attack" ],
+    [ "HeroHP", "class_hero_h_p.html", "class_hero_h_p" ],
+    [ "Manager", "class_manager.html", "class_manager" ],
+    [ "Menu", "class_menu.html", "class_menu" ],
+    [ "StartTower", "class_start_tower.html", null ],
+    [ "TeacherTeleport", "class_teacher_teleport.html", null ]
+];
