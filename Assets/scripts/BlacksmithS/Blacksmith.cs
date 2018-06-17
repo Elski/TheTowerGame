@@ -12,6 +12,7 @@ public class Blacksmith : MonoBehaviour
     public static Blacksmith manager;
     public Text swordtext;
     public Text armortext;
+    public Text goldtext;
 
     void Start()
     {
@@ -23,7 +24,8 @@ public class Blacksmith : MonoBehaviour
     {
         swordtext.text = (Hero.swordPower).ToString("N2");
         armortext.text = (Hero.armorPower).ToString("N2");
-        
+        goldtext.text = (Hero.gold).ToString("N2");
+
     }
 
     public void Button_Click() { 
@@ -37,7 +39,8 @@ public class Blacksmith : MonoBehaviour
             else
             {
                 print(Hero.swordPower);
-            }
+                print(Hero.gold);
+        }
      }
 
     public void Button_Click2()
@@ -52,6 +55,7 @@ public class Blacksmith : MonoBehaviour
         else
         {
             print(Hero.armorPower);
+            print(Hero.gold);
         }
     }
 

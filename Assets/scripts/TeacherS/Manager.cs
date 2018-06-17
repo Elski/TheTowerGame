@@ -16,6 +16,7 @@ public class Manager : MonoBehaviour {
     public Text lucktext;
     public Text fencingtext;
     public Text vitalitytext;
+    public Text skillpointstext;
     // Use this for initialization
 
     void Start()
@@ -44,6 +45,7 @@ public class Manager : MonoBehaviour {
         lucktext.text = (Hero.luck).ToString("N2");
         fencingtext.text = (Hero.fencing).ToString("N2");
         vitalitytext.text = (Hero.vitality).ToString("N2");
+        skillpointstext.text = (Hero.points).ToString("N2");
     }
 
     public void Button_ClickE()
