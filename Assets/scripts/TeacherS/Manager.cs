@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
-//klasa odpowiedzialna za dodawanie punktow,ich wyswietlanie oraz odswiezanie obrazu
+/// <summary>
+/// Klasa odpowiedzialna za wyswietlanie oraz zmienianie statystyk bohatera w odpowiedniej scenie
+/// </summary>
 public class Manager : MonoBehaviour {
 
     public static Manager manager;
@@ -28,7 +30,7 @@ public class Manager : MonoBehaviour {
 
     public void Leave()
     {
-        //Move to scene "oustide"
+        
         SceneManager.LoadScene("outside");
     }
 

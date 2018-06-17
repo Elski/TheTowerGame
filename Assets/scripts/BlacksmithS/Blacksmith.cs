@@ -4,8 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/// <summary>
+/// Klasa odpowiedzialna za dodawanie punktow,ich wyswietlanie oraz odswiezanie obrazu
+/// </summary>
 
-//klasa odpowiedzialna za dodawanie punktow,ich wyswietlanie oraz odswiezanie obrazu
 public class Blacksmith : MonoBehaviour
 {
 
@@ -61,7 +63,7 @@ public class Blacksmith : MonoBehaviour
 
     public void Leave()
     {
-        //Move to scene "oustide"
+        
         SceneManager.LoadScene("outside");
     }
 

@@ -5,7 +5,10 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
-//klasa odpowiedzialna za dodawanie punktow,ich wyswietlanie oraz odswiezanie obrazu
+
+/// <summary>
+/// Klasa odpowiedzialna za zmiane sceny
+/// </summary>
 public class Menu : MonoBehaviour
 {
 

@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+/// <summary>
+/// Glowna klasa zawierajaca informacje o przeciwniku
+/// </summary>
 [System.Serializable]
 public class Enemy
 {

@@ -5,13 +5,15 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
-//klasa odpowiedzialna za dodawanie punktow,ich wyswietlanie oraz odswiezanie obrazu
+/// <summary>
+/// Klasa odpowiedzialna za wyswietlanie odpowiedniego pietra
+/// </summary>
 public class Floor : MonoBehaviour
 {
 
 
     public Text floortext;
-    // Use this for initialization
+ 
 
     void Start()
     {
@@ -21,7 +23,7 @@ public class Floor : MonoBehaviour
     
 
     public void UpdateUI()
-    {   //Update floor counter 
+    {   
         int nr = Hero.floor;
         floortext.text = (nr).ToString("N2");   
     }

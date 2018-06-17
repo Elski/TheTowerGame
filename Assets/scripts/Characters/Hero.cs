@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Glowna klasa zawierajaca informacje o bohaterze
+/// </summary>
 [System.Serializable]
 public static class Hero
 {
@@ -30,27 +32,7 @@ public static class Hero
     public static float addEnd = 0;
     public static float addStr=0;
     public static float addAgl = 0;
-    /*
-    public  Hero(string  name_, float startHp_, float curHp_, float endurance_, float charisma_, float strenght_, float agility_, float luck_, float fencing_, float vitality_, float swordPower_,
-     float armorPower_, float points_, float gold_)
-    {
-        name = name_;
-        startHp = startHp_;
-        curHp = curHp_;
-        endurance = endurance_;
-        charisma = charisma_;
-        strenght = strenght_;
-        agility = agility_;
-        luck = luck_;
-        fencing = fencing_;
-        vitality = vitality_;
-        swordPower = swordPower_;
-        armorPower = armorPower_;
-        points = points_;
-        gold = gold_;
-
-    }
-    */
+  
     
 
     

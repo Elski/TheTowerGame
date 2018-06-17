@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+/// <summary>
+/// Glowna klasa odpowiedzialna za wszystkie wydarzenia dziejace sie w srodku wiezy
+/// </summary>
 public class GameAction : MonoBehaviour {
 
 
@@ -12,7 +14,11 @@ public class GameAction : MonoBehaviour {
     public Enemy enemy;
 
 
-
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="info"></param>
+    /// <returns></returns>
     public bool SetButtonInfo(bool info)
     {
         return info;
@@ -20,13 +26,17 @@ public class GameAction : MonoBehaviour {
 
      
 
-    // Use this for initialization
-
+   
+    /// <summary>
+    /// Metoda odpowiedzialna za inicjowanie walki,
+    /// tworzenie przeciwnika
+    /// przebieg walki
+    /// </summary>
     void Start()
     {
         
         Hero.floor++;
-        Hero.curHp = Hero.startHp+(Hero.vitality*10);
+        Hero.curHp = Hero.startHp+(Hero.vitality);
         Hero.addEnd = Hero.armorPower;
         Hero.addStr = Hero.swordPower;
 
@@ -48,7 +58,7 @@ public class GameAction : MonoBehaviour {
 
         enemy.startHp = Random.Range(100, 200);
         enemy.curHp = enemy.startHp ;
-        float valueRange = Hero.floor;
+        float valueRange = Hero.floor+Hero.floor+10;
         valueRange= checkValue(valueRange);
 
         enemy.endurance = Random.Range(1, valueRange);
@@ -80,7 +90,9 @@ public class GameAction : MonoBehaviour {
 
     }
 
-    // Update is called once per frame
+    /// <summary>
+    /// Sprawdza czy trzeba przejsc do innej sceny
+    /// </summary>
     void Update()
     {
         if (check == -1)
@@ -90,12 +102,14 @@ public class GameAction : MonoBehaviour {
         if (check == 1)
         {
             SceneManager.LoadScene("outside", LoadSceneMode.Single);
-            //if killed, player starts from the first floor
+            
             Hero.floor = 0;
         }
 
     }
-
+    /// <summary>
+    /// Jeden ze skilli
+    /// </summary>
     public void BigAttack()
     {
       if(((Hero.addAgl+Hero.agility)/2)>enemy.agility)
@@ -125,6 +139,9 @@ public class GameAction : MonoBehaviour {
         }
 
     }
+    /// <summary>
+    /// Jeden ze skilli
+    /// </summary>
     public void AddEnd()
     {
         if (((Hero.addAgl + Hero.agility) / 2) > enemy.agility)
@@ -149,7 +166,9 @@ public class GameAction : MonoBehaviour {
             checkStatus();
         }
     }
-
+    /// <summary>
+    /// Jeden ze skilli
+    /// </summary>
     public void AddStr()
     {
         if (((Hero.addAgl + Hero.agility) / 2) > enemy.agility)
@@ -174,7 +193,9 @@ public class GameAction : MonoBehaviour {
             checkStatus();
         }
     }
-
+    /// <summary>
+    /// Jeden ze skilli
+    /// </summary>
     public void AddAgi()
     {
         if (((Hero.addAgl + Hero.agility) / 2) > enemy.agility)
@@ -200,7 +221,9 @@ public class GameAction : MonoBehaviour {
         }
     }
    
-
+    /// <summary>
+    /// Metoda odpowiada za atak przeciwnika
+    /// </summary>
     public void EnemyAttack()
     {
         float enemyLuck= Random.Range(1, enemy.luck);
@@ -208,9 +231,12 @@ public class GameAction : MonoBehaviour {
         Hero.curHp = Hero.curHp -((enemyLuck/2)*((10/Mathf.Abs((Hero.endurance+Hero.addEnd+Hero.armorPower)-enemy.charisma))*(enemy.strenght + enemy.strenght*(enemy.fencing/10))));
         else
             Hero.curHp = Hero.curHp - ((enemyLuck / 2) * (enemy.strenght + enemy.strenght * (enemy.fencing / 10)));
-        print(Hero.curHp);
+        
         
     }
+    /// <summary>
+    /// Metoda odpowiada za atak bohatera
+    /// </summary>
     public void HeroAttack()
     {
         float heroLuck = Random.Range(1, Hero.luck);
@@ -218,7 +244,7 @@ public class GameAction : MonoBehaviour {
         enemy.curHp = enemy.curHp - ((heroLuck / 2) * ((1 /((enemy.endurance ) - Hero.charisma)) * (Hero.strenght+Hero.swordPower + Hero.strenght * (Hero.fencing / 10))));
         else
             enemy.curHp = enemy.curHp - ((heroLuck / 2) * (Hero.strenght + Hero.swordPower + Hero.strenght * (Hero.fencing / 10)));
-        print(enemy.curHp);
+        
     }
     public float checkValue(float value)
     {
