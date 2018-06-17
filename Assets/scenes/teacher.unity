@@ -221,7 +221,7 @@ MonoBehaviour:
   lucktext: {fileID: 638979814}
   fencingtext: {fileID: 962057385}
   vitalitytext: {fileID: 962673881}
-  skillpointstext: {fileID: 0}
+  skillpointstext: {fileID: 1407739371}
 --- !u!4 &31067396
 Transform:
   m_ObjectHideFlags: 0
@@ -2191,7 +2191,7 @@ MonoBehaviour:
   lucktext: {fileID: 638979814}
   fencingtext: {fileID: 962057385}
   vitalitytext: {fileID: 962673881}
-  skillpointstext: {fileID: 0}
+  skillpointstext: {fileID: 1407739371}
 --- !u!4 &1508068701
 Transform:
   m_ObjectHideFlags: 0
